@@ -2,7 +2,7 @@ import { use } from 'react'
 import { CartContext } from '../Providers/CartContext'
 
 const Cart = () => {
-  const { cart, setCart } = use(CartContext)
+  const { cart } = use(CartContext)
   return (
     <div>
       {cart.map(plant => (
