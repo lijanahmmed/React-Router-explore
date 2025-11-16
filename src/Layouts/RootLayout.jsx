@@ -8,7 +8,6 @@ import { CartContext } from "../Providers/CartContext";
 const RootLayout = () => {
   const [cart, setCart] = useState([]);
   const navigation = useNavigation();
-  console.log(navigation.state);
   return (
     <CartContext.Provider value={{ cart, setCart }}>
       <Navbar />
