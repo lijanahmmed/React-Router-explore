@@ -1,16 +1,41 @@
-# React + Vite
+# React Router Explore + API Data Fetch
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A complete learning-focused repository to explore **React Router**, **Routing Concepts**, and **API Data Fetching** in React.  
+This project demonstrates navigation, dynamic routing, loaders, and fetching external APIs using modern React techniques.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## What You Will Learn
 
-## React Compiler
+### React Router Fundamentals
+- **BrowserRouter** – Enables routing in React apps.
+- **Routes & Route** – Defines pages and components based on URL.
+- **Link & NavLink** – Navigate without page reloads.
+- **Nested Routes** – Build layout-based routing structure.
+- **Dynamic Routes (`useParams`)** – Capture URL parameters for details pages.
+- **Navigate (`useNavigate`)** – Programmatically redirect users.
+- **Outlet** – Render nested child routes.
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### API Data Fetching Concepts
+- **Fetch API** – Get data from external APIs.
+- **Async/Await** – Handle asynchronous data loading.
+- **Error Handling** – Manage API failures gracefully.
+- **Loading UI** – Show loading spinners while fetching.
+- **React Router Loaders** – Fetch data before rendering routes.
+- **Detail Page Fetching** – Fetch separate data using route params.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Technologies Used
+- **React**
+- **React Router DOM**
+- **JavaScript (ES6+)**
+- **Tailwind CSS**
+- **Fetch API / Async Data Handling**
+
+---
+
+## Live Link
+
+[https://react-router-explore-prac.netlify.app/](https://react-router-explore-prac.netlify.app/)
+
