@@ -1,14 +1,14 @@
-import { use } from 'react'
-import { CartContext } from '../Providers/CartContext'
+import { use } from "react";
+import { CartContext } from "../Providers/CartContext";
 
 const Cart = () => {
-  const { cart } = use(CartContext)
+  const { cart } = use(CartContext);
   return (
     <div>
-      {cart.map(plant => (
+      {cart.map((plant) => (
         <p key={plant.id}>{plant.name}</p>
       ))}
     </div>
-  )
-}
-export default Cart
+  );
+};
+export default Cart;

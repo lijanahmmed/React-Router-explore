@@ -3,12 +3,6 @@ import { useLoaderData } from "react-router";
 import PlantCard from "../Components/PlantCard";
 
 const Home = () => {
-  // useEffect(() => {
-  //   fetch('https://openapi.programming-hero.com/api/plants')
-  //     .then(res => res.json())
-  //     .then(data => setPlants(data?.plants))
-  // }, [])
-  // console.log(plants)
   const { plants } = useLoaderData();
 
   return (

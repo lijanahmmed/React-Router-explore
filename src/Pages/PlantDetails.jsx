@@ -7,22 +7,7 @@ import { CartContext } from "../Providers/CartContext";
 const PlantDetails = () => {
   const { setCart } = useContext(CartContext);
 
-  // const { id } = useParams()
-  // console.log(id)
-  // const [plant, setPlant] = useState({})
-  // useEffect(() => {
-  //   // fetch(`https://openapi.programming-hero.com/api/plant/${id}`)
-  //   //   .then(res => res.json())
-  //   //   .then(data => setPlant(data?.plants))
-  //   // fetch data using axios
-  //   // axios(`https://openapi.programming-hero.com/api/plant/${id}`).then(data =>
-  //   //   setPlant(data.data.plants)
-  //   // )
-  // }, [id])
   const location = useLocation();
-
-  // const { data } = useLoaderData()
-  console.log(location?.state);
   const { name, description, category, price, image } = location?.state || {};
   return (
     <div className="card bg-base-100 max-w-5xl mx-auto shadow-sm">

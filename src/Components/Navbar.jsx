@@ -5,7 +5,7 @@ import { ShoppingCart } from "lucide-react";
 import { CartContext } from "../Providers/CartContext";
 
 const Navbar = () => {
-  const { cart, setCart } = use(CartContext);
+  const { cart } = use(CartContext);
 
   return (
     <div className="navbar bg-base-100 shadow-sm">
